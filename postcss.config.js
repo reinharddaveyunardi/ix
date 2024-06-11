@@ -3,4 +3,8 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> 73ef748 (release IX)

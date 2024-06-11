@@ -1,0 +1,3 @@
+Perlu di fix:
+1.margin pada awards di mode desktop: 
+2.

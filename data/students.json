@@ -1,0 +1,266 @@
+{
+  "class": {
+    "ixa": {
+      "homeroom": [
+        {
+          "homeroom_id": "1",
+          "name": "Ms. Mita",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "role": "Homeroom",
+          "subject": "Homeroom",
+          "icon": ""
+        }
+      ],
+      "students": [
+        {
+          "student_id": "1",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Alykha Nur Syahrazzard Quensa Aulia.",
+          "quotes": "Let whoever think whatever, just keep getting better.",
+          "subject": "Math",
+          "ig": "https://www.instagram.com/wolfcaaa/"
+        },
+        {
+          "student_id": "2",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Angel Nainggolan",
+          "quotes": "If u learn, then u remove the L.",
+          "subject": "Science",
+          "ig": "https://www.instagram.com/yourz_ngel/"
+        },
+        {
+          "student_id": "3",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Daniel Matthew Bokau Evans",
+          "quotes": "if the world pushes you down you get up and hit em back twice as hard till you reach your goal because remember God has everything planned out for you.",
+          "subject": "Arts",
+          "ig": "https://www.instagram.com/"
+        },
+        {
+          "student_id": "4",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Dominick Sean Wiliam",
+          "quotes": "Jangan cepet menyerah, pasti nanti ada waktunya berhasil.",
+          "subject": "Music",
+          "ig": "https://www.instagram.com/lil_einstein__/"
+        },
+        {
+          "student_id": "5",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Evanlino Sunny Aprilio Elim",
+          "quotes": "in God we trust.",
+          "subject": "Sports",
+          "ig": "https://www.instagram.com/lil_gymbro/"
+        },
+        {
+          "student_id": "6",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Fransisco Timothy Butarbutar ",
+          "quotes": "wasting time hanyalah membuang buang waktu.",
+          "subject": "History",
+          "ig": "https://www.instagram.com/fransiscotimothy/"
+        },
+        {
+          "student_id": "7",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "George Thaddeus Kusuma",
+          "quotes": "Eminem once said, God gave you them shoes to fit you, so put 'em on and wear 'em. Be yourself, man. Be proud of who you are.",
+          "subject": "History",
+          "ig": "https://www.instagram.com/jorgethks/"
+        },
+        {
+          "student_id": "8",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Glenn Albert Tjandra",
+          "quotes": "Tidak ada keberhasilan tanpa usaha keras.",
+          "subject": "Arts",
+          "ig": "https://www.instagram.com/Afseng3/"
+        },
+        {
+          "student_id": "9",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Hans Aksana Sachio",
+          "quotes": "Kesuksekan bukan datang dari bakat, tapi dari siapa yang mau berusaha.",
+          "subject": "Math",
+          "ig": "https://www.instagram.com/"
+        },
+        {
+          "student_id": "10",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Jaysen Wesley",
+          "quotes": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+          "subject": "Science",
+          "ig": "https://www.instagram.com/blazingjw/"
+        },
+        {
+          "student_id": "11",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Jeremy Mauretz",
+          "quotes": "Ubah sikap mu jika kamu ingin mengubah nasibmu.",
+          "subject": "IT",
+          "ig": "https://www.instagram.com/lil_jimmy_2022/"
+        },
+        {
+          "student_id": "12",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Jocelyn Lainie",
+          "quotes": "oOw, 3 years left hahaha.",
+          "subject": "Sastra",
+          "ig": "https://www.instagram.com/your.jclyn_/"
+        },
+        {
+          "student_id": "13",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Jong Sydney",
+          "quotes": "-",
+          "subject": "-",
+          "ig": "-"
+        },
+        {
+          "student_id": "14",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Jucelino",
+          "quotes": "Jadilah cahaya di tengah kegelapan, dan terangi jalan bagi orang lain",
+          "subject": "Sastra",
+          "ig": "https://www.instagram.com/jucelinotrey/"
+        },
+        {
+          "student_id": "15",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Keisha Anindya Liovry",
+          "quotes": "your fear of looking stupid is holding your back",
+          "subject": "Sports",
+          "ig": "https://www.instagram.com/kaliovry/"
+        },
+        {
+          "student_id": "16",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Kiarra Sheba Puspa Winasis",
+          "quotes": "Dari pada pacaran mending pikirin nilai nilai pelajaran, lebih sakit tidak naik kelas/do dari pada diputusin :D",
+          "subject": "Arts",
+          "ig": "https://www.instagram.com/Pawang_Diluc18/"
+        },
+        {
+          "student_id": "17",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Michelle Putri Pelahilla",
+          "quotes": "Live Love Laugh Arctic Monkeys",
+          "subject": "Sastra",
+          "ig": "https://www.instagram.com/lsketchwk_/"
+        },
+        {
+          "student_id": "18",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Moses Rury Saputra",
+          "quotes": "Kalo kamu punya nilai tinggi, bolehkah saya minta?",
+          "subject": "History",
+          "ig": "https://www.instagram.com/sescvx/"
+        },
+        {
+          "student_id": "19",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Nichie Isabella Tan",
+          "quotes": "The world is cruel, so you have to fight alone",
+          "subject": "Music",
+          "ig": "https://www.instagram.com/Nicistan/"
+        },
+        {
+          "student_id": "20",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Raffael Luciano",
+          "quotes": "Take the risk or it will be gone. ",
+          "subject": "IT",
+          "ig": "https://www.instagram.com/raffael_luciano/"
+        },
+        {
+          "student_id": "20",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Raga Akalindra",
+          "quotes": "Pinter, gak ada etika!? gk bangedz...",
+          "subject": "IT",
+          "ig": "https://www.instagram.com/raga_studio_off/"
+        },
+        {
+          "student_id": "20",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Randy Carvalho Chandra",
+          "quotes": "When life seems hard, remember to always have faith in yourself",
+          "subject": "Math",
+          "ig": "https://www.instagram.com/rrawrren_z.ni/"
+        },
+        {
+          "student_id": "20",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Sekar Biru Langit",
+          "quotes": "Rejoice in hope, be patient in tribulation, be constant in prayer",
+          "subject": "Science",
+          "ig": "https://www.instagram.com/sekar.langit_/"
+        },
+        {
+          "student_id": "20",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Shandy Gunawan",
+          "quotes": "Sebesar apapun masalah kita jangan pernah lupa untuk beribadah",
+          "subject": "Music",
+          "ig": "https://www.instagram.com/astreabr/"
+        },
+        {
+          "student_id": "20",
+          "img": "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
+          "name": "Stanislaus Costca Avatar Hasmoro",
+          "quotes": "saya Korban brosur pendaftaran",
+          "subject": "Sports",
+          "ig": "https://www.instagram.com/cstcaaa/"
+        }
+      ]
+    },
+    "ixb": {
+      "homeroom": [
+        {
+          "homeroom_id": "1",
+          "name": "Ms. Gita",
+          "role": "Homeroom",
+          "icon": ""
+        }
+      ],
+      "students": [
+        {
+          "student_id": "004",
+          "name": "Bob Brown",
+          "quotes": "The future belongs to those who believe in the beauty of their dreams.",
+          "subject": "Biology"
+        },
+        {
+          "student_id": "005",
+          "name": "Emily Davis",
+          "quotes": "In the middle of difficulty lies opportunity.",
+          "subject": "Chemistry"
+        }
+      ]
+    },
+    "ixc": {
+      "homeroom": [
+        {
+          "homeroom_id": "1",
+          "name": "Ms. josephine",
+          "role": "Homeroom",
+          "icon": ""
+        }
+      ],
+      "students": [
+        {
+          "student_id": "006",
+          "name": "David Wilson",
+          "quotes": "It does not matter how slowly you go as long as you do not stop.",
+          "subject": "Computer Science"
+        },
+        {
+          "student_id": "007",
+          "name": "Sarah Martinez",
+          "quotes": "The only limit to our realization of tomorrow will be our doubts of today.",
+          "subject": "Art"
+        }
+      ]
+    }
+  }
+}

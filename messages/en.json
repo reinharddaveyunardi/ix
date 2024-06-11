@@ -1,0 +1,229 @@
+{
+  "IndexPage": {
+    "title": "Welcome to Class 9",
+    "description": "Chapter 7 - 9 |  2024"
+  },
+  "ixa": {
+    "title": "IXA Page",
+    "description": "Hello, we are from class 9A Citra Berkat School! scroll to see our classes."
+  },
+  "ixb": {
+    "title": "IXB Page",
+    "description": "Hello, we are from class 9B Citra Berkat School! scroll to see our classes."
+  },
+  "ixc": {
+    "title": "IXC Page",
+    "description": "Hello, we are from class 9C Citra Berkat School! scroll to see our classes."
+  },
+  "school": {
+    "title": "SCB Citra Berkat",
+    "description": "Citra Berkat School",
+    "Location": {
+      "ci": "Citra Indah City",
+      "road": "Jalan Raya Jonggol – Cileungsi N Km, 23,2",
+      "regency": "Bogor Regency",
+      "province": "West Java - 16830"
+    },
+    "Facility": {
+      "title": "School Facilities"
+    },
+    "sFooter": {
+      "Left": {
+        "title": "IX",
+        "img": "/logoFooter.png"
+      },
+      "Info": {
+        "title": "School",
+        "Elearn": {
+          "title": "Elearn",
+          "link": "https://elearn.citrakasih.sch.id"
+        },
+        "Cis": {
+          "title": "Ciputra Education Digital eXperience",
+          "link": "https://student.citrakasih.sch.id/"
+        },
+        "SCB": {
+          "title": "Citra Kasih School",
+          "link": "https://citrakasih.sch.id/"
+        },
+        "SCBJ": {
+          "title": "SCB Citra Berkat East Cibubur",
+          "link": "https://citrakasih.sch.id/scbcitraindah/"
+        },
+        "Loc": {
+          "title": "Citra Indah City | Jalan Raya Jonggol – Cileungsi N Km, 23,2"
+        }
+      },
+      "Sosmed": {
+        "title": "Social Media",
+        "Facebook": {
+          "title": "Facebook",
+          "link": "https://www.facebook.com/scbcitraindah/"
+        },
+        "Instagram": {
+          "title": "Instagram",
+          "link": "https://www.instagram.com/sekolahcitraberkat_bogor/"
+        },
+        "Tiktok": {
+          "title": "Tiktok",
+          "link": "https://www.tiktok.com/@Sekolahcitraberkat_bogor"
+        }
+      },
+      "Other": {
+        "title": "Tools",
+        "Tailwind": {
+          "title": "Tailwindcss",
+          "link": "https://tailwindcss.com/"
+        },
+        "NextJs": {
+          "title": "NextJs",
+          "link": "https://nextjs.org/"
+        }
+      },
+      "Copy": {
+        "copy": "© 2024 IX Citra Berkat. All rights reserved."
+      }
+    }
+  },
+  "Mail": {
+    "title": "Hey, there's a message!"
+  },
+  "Letter": {
+    "dear": "Dear graduates,",
+    "message": {
+      "paragraphOne": "Congratulations to the class of 2024 on your graduation. We are proud of your achievements and the manner in which you have overcome the challenge of having the full year learning at school. Your resilience, adaptation, agility and strength of character have been notable, and we look forward to your next step learning journeys.",
+      "paragraphTwo": "As you begin the next chapter of your life, we encourage you to be ready for whatever the future may bring; and accept this time of uncertainty. Don't be afraid to take risks, try new things, and step out of your comfort zone. The world needs innovative thinkers, courageous leaders, and compassionate change-makers now more than ever.",
+      "paragraphThree": "Remember that your education does not end with your graduation. Learning is a lifelong journey, and it is your call to continue seeking knowledge, experience, and growth. Embrace the power of curiosity and continue to make inquiries. ",
+      "paragraphFour": "On behalf of the school foundation, we would like to thank our wonderful parents for their cooperation, support and teamwork with teachers to give the best education for students. Thank you to all teachers, principals, the leadership team and all staff for the contribution and dedication to school who have made this beautiful day a reality.",
+      "paragraphFive": "Congratulations again on this marvelous achievement. We’re honored to be a part of this momentous occasion, and we wish you all the best as you embark on your next adventure. God bless you and accompany you on your next journey and make you a blessing to others."
+    },
+    "close": {
+      "greeting": "Greetings and prayers,",
+      "name": "Boedi Tjusila & Fenny Sukamto",
+      "role": "School General Manager",
+      "school": "Sekolah Citra Kasih / Sekolah Citra Berkat / Sekolah Ciputra Kasih"
+    }
+  },
+  "Popup": {
+    "title": "Hello, welcome to PastNine!",
+    "description": "You can change the language at the top right!"
+  },
+  "Error": {
+    "title": "There's an error but I don't know what.",
+    "description": "<p>Error. Get Back!"
+  },
+  "NotFoundPage": {
+    "title": "Open what?",
+    "description": "There's no page! What are you looking for?🤨"
+  },
+  "LocaleLayout": {
+    "title": "IX SCB Citra Berkat 2024 | English"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, id { Bahasa} en { English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home",
+    "school": "School",
+    "ixa": "IXA",
+    "ixb": "IXB",
+    "ixc": "IXC"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "See More!",
+        "description": "link",
+        "href": "/"
+      }
+    }
+  },
+  "ClassInfo": {
+    "title": "",
+    "ix": {
+      "ixa": {
+        "logo": "/ixa.JPG",
+        "title": "IXA",
+        "homeroom": "Homeroom: Ms. Mita",
+        "hof": "Leader: Fransisco Timothy Butar Butar",
+        "vice": "Vice: Angel Nainggolan"
+      },
+      "ixb": {
+        "title": "IXB",
+        "logo": "/ixb.JPG",
+        "homeroom": "Homeroom: Ms. Dorasi Brigitta",
+        "hof": "Leader: Chaya Rahmadhan Keyza Dwipa",
+        "vice": "Vice: Archangel Caitlyn Feliciana"
+      },
+      "ixc": {
+        "title": "IXC",
+        "logo": "/ixc.JPG",
+        "homeroom": "Homeroom: Ms. Josephine",
+        "hof": "Leader: Marchel Timothy",
+        "vice": "Vice: Achiles Manuel Sitinjak"
+      }
+    }
+  },
+  "Gallery": {
+    "title": "Gallery"
+  },
+  "MainFooter": {
+    "title": "IX",
+    "Left": {
+      "title": "IX",
+      "img": "https://placehold.co/400"
+    },
+    "Info": {
+      "title": "School",
+      "Elearn": {
+        "title": "Elearning SCB",
+        "link": "https://elearn.citrakasih.sch.id"
+      },
+      "Cis": {
+        "title": "Ciputra Education Digital eXperience",
+        "link": "https://student.citrakasih.sch.id/"
+      },
+      "SCB": {
+        "title": "Citra Kasih School",
+        "link": "https://citrakasih.sch.id/"
+      },
+      "SCBJ": {
+        "title": "SCB Citra Berkat East Cibubur",
+        "link": "https://citrakasih.sch.id/scbcitraindah/"
+      },
+      "Loc": {
+        "title": "Citra Indah | Jalan Raya Jonggol - Cileungsi N Km, 23,2"
+      }
+    },
+    "Sosmed": {
+      "title": "Social Media",
+      "Facebook": {
+        "title": "Facebook",
+        "link": "https://www.facebook.com/scbcitraindah/"
+      },
+      "Instagram": {
+        "title": "Instagram",
+        "link": "https://www.instagram.com/sekolahcitraberkat_bogor/"
+      },
+      "Tiktok": {
+        "title": "Tiktok",
+        "link": "https://www.tiktok.com/@Sekolahcitraberkat_bogor"
+      }
+    },
+    "Other": {
+      "title": "Tools",
+      "Tailwind": {
+        "title": "Tailwindcss",
+        "link": "https://tailwindcss.com/"
+      },
+      "NextJs": {
+        "title": "NextJs",
+        "link": "https://nextjs.org/"
+      }
+    },
+    "Copy": {
+      "copy": "© 2024 IX Citra Berkat. All rights reserved."
+    }
+  }
+}

@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "manygo-serif";
+  src: url("/fonts/manygo-serif.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url(https://db.onlinewebfonts.com/c/5549e6fc6ac8415d9b00c04c20e8b116?family=Anavio+Condensed+W01+Cn+Rg);
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.button {
+  color: rgb(187, 187, 187);
+  border: 1px solid #5c432e;
+  background: transparent;
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+@media (max-width: 460px) {
+  .button {
+    padding: 5px 10px;
+  }
+}
+
+.button:hover {
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+}
+
+.button.active {
+  background-color: #47321e;
+  color: white;
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  padding: 0 12px;
+  max-width: 1200px;
+}
+
+.gallery > .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.box-preset-left {
+  border: #000 2px solid;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0);
+}
+.box-preset-right {
+  border: #000 2px solid;
+  box-shadow: -5px 5px 0px 0px rgba(0, 0, 0);
+}
+
+@media (max-width: 460px) {
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    padding: 0 12px;
+    max-width: 1200px;
+  }
+}
+
+.manygo {
+  font-family: "manygo-serif", sans-serif;
+}
+.anavio {
+  font-family: "Anavio Condensed W01 Cn Rg";
+}
+.btn {
+  border: #000 1px solid;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #4b3e2b;
+  color: white;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+}
+
+.active {
+  background-color: #4b3e2b;
+  color: #fff;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease;
+}
+
+.imgStyle{
+  box-shadow: 4px 4px 3px rgb(32, 32, 32);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

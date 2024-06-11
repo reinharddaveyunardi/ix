@@ -1,0 +1,9 @@
+.mail {
+  background: #f1e3d5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 24px;
+  position: relative;
+  height: 100%;
+  width: 95%;
+  z-index: 9999;
+}
