@@ -1,15 +1,4 @@
 {
-<<<<<<< HEAD
-  "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-=======
   "extends": "./node_modules/eslint-config-molindo/tsconfig.json",
   "compilerOptions": {
     "jsxFactory": "React.createElement",
@@ -22,7 +11,6 @@
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "Bundler",
->>>>>>> 73ef748 (release IX)
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -32,13 +20,6 @@
         "name": "next"
       }
     ],
-<<<<<<< HEAD
-    "paths": {
-      "@/*": ["./*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-=======
     "strictNullChecks": true
   },
   "include": [
@@ -57,6 +38,5 @@
     "tailwind.config.js",
     "src/components/ui/sticky-scroll-reveal.tsx"
 , "src/components/Countdown.jsx"  ],
->>>>>>> 73ef748 (release IX)
   "exclude": ["node_modules"]
 }

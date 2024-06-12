@@ -1,42 +1,71 @@
-'use client'
+"use client";
 import React, { useEffect, useState } from "react";
-import Skeleton from '@mui/material/Skeleton';
-import { items } from "./items";
+import Skeleton from "@mui/material/Skeleton";
 import "./style.css";
+
+export const items = (function () {
+  function shuffleImage(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  const categories = [
+    { name: "IXA", pic: 8 },
+    { name: "IXB", pic: 8 },
+    { name: "IXC", pic: 8 },
+    { name: "Teacher", pic: 7 },
+  ];
+
+  const items = [];
+
+  categories.forEach(({ name, pic }) => {
+    const categoryItems = [];
+    for (let i = 1; i <= pic; i++) {
+      categoryItems.push({
+        url: `/gallery/${name.toLowerCase()}${i}.JPG`,
+        category: name,
+        name: `${name} ${i}`,
+      });
+    }
+    items.push(...shuffleImage(categoryItems));
+  });
+
+  return items;
+})();
 
 export default function MultiFilters() {
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(items);
   const [loading, setLoading] = useState(true);
 
-  let filters = ["IXA", "IXB", "IXC", "Teacher"];
+  const filters = ["IXA", "IXB", "IXC", "Teacher"];
 
   const handleFilterButtonClick = (selectedCategory) => {
-    if (selectedFilters.includes(selectedCategory)) {
-      let filters = selectedFilters.filter((el) => el !== selectedCategory);
-      setSelectedFilters(filters);
-    } else {
-      setSelectedFilters([...selectedFilters, selectedCategory]);
-    }
+    setSelectedFilters((prevFilters) =>
+      prevFilters.includes(selectedCategory)
+        ? prevFilters.filter((el) => el !== selectedCategory)
+        : [...prevFilters, selectedCategory]
+    );
   };
 
   useEffect(() => {
     setLoading(true);
-    filterItems();
-  }, [selectedFilters]);
+    const timeoutId = setTimeout(() => {
+      if (selectedFilters.length > 0) {
+        setFilteredItems(
+          items.filter((item) => selectedFilters.includes(item.category))
+        );
+      } else {
+        setFilteredItems(items);
+      }
+      setLoading(false);
+    }, 500);
 
-  const filterItems = () => {
-    if (selectedFilters.length > 0) {
-      let tempItems = selectedFilters.map((selectedCategory) => {
-        let temp = items.filter((item) => item.category === selectedCategory);
-        return temp;
-      });
-      setFilteredItems(tempItems.flat());
-    } else {
-      setFilteredItems([...items]);
-    }
-    setLoading(false);
-  };
+    return () => clearTimeout(timeoutId);
+  }, [selectedFilters]);
 
   return (
     <div>
@@ -45,7 +74,7 @@ export default function MultiFilters() {
           <button
             onClick={() => handleFilterButtonClick(category)}
             className={`button ${
-              selectedFilters?.includes(category) ? "active" : ""
+              selectedFilters.includes(category) ? "active" : ""
             }`}
             key={`filters-${idx}`}
           >
@@ -55,19 +84,22 @@ export default function MultiFilters() {
       </div>
       <div className="flex justify-center pt-16">
         <div className="gallery">
-          {loading ? (
-            Array.from({ length: 9 }).map((_, idx) => (
-              <div key={`skeleton-${idx}`} className="pics">
-                <Skeleton variant="rectangular" width={210} height={118}/>
-              </div>
-            ))
-          ) : (
-            filteredItems.map((item, idx) => (
-              <div key={`items-${idx}`} className="pics">
-                <img src={item.url} style={{ width: '100%' }} alt={`item-${idx}`} title={item.name}/>
-              </div>
-            ))
-          )}
+          {loading
+            ? Array.from({ length: 9 }).map((_, idx) => (
+                <div key={`skeleton-${idx}`} className="pics">
+                  <Skeleton variant="rectangular" width={210} height={118} />
+                </div>
+              ))
+            : filteredItems.map((item, idx) => (
+                <div key={`items-${idx}`} className="pics">
+                  <img
+                    src={item.url}
+                    style={{ width: "100%" }}
+                    alt={`item-${idx}`}
+                    title={item.name}
+                  />
+                </div>
+              ))}
         </div>
       </div>
     </div>
