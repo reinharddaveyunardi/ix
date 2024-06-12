@@ -1,11 +1,9 @@
-# example-app-router
+# IX
+Website ini berisi memori kelas 9 angkatan 12 [Sekolah Citra Berkat Jonggol](https://www.citrakasih.sch.id/sekolah-citra-berkat-citraindah-bogor/).
+[![Lihat]](https://pastnine.vercel.app)
 
-An example that showcases usage of `next-intl` with the App Router.
+## IX
 
-[Demo](https://next-intl-example-app-router.vercel.app/)
+This website contains memories from class 9 of [Citra Berkat Jonggol School](https://www.citrakasih.sch.id/sekolah-citra-berkat-citraindah-bogor/).
 
-## Deploy your own
-
-By deploying to [Vercel](https://vercel.com), you can check out the example in action. Note that you'll be prompted to create a new GitHub repository as part of this, allowing you to make subsequent changes.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/amannn/next-intl/tree/main/examples/example-app-router)
+[![Lihat]](https://pastnine.vercel.app)
