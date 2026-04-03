@@ -211,7 +211,7 @@ export default function TeacherGallery() {
     <div className="w-full max-w-7xl mx-auto px-4 sm:px-12 py-24 relative z-10 font-serif">
       <div className="text-center mb-16">
         <span className="text-[var(--brass)] caslon italic text-sm tracking-[0.4em] uppercase mb-4 block">
-          Faculty & Mentors
+          Teachers
         </span>
         <h2 className="text-4xl md:text-5xl text-[var(--parchment)] caslon italic tracking-tighter">
           The Guiding Light
@@ -229,7 +229,7 @@ export default function TeacherGallery() {
       >
         <Image
           src={FACULTY_GROUP_IMG}
-          alt="Full Faculty"
+          alt="The Class IX Teachers"
           fill
           priority
           className="object-contain grayscale brightness-75 group-hover:grayscale-0 transition-all duration-1000 ease-in-out"
@@ -237,7 +237,7 @@ export default function TeacherGallery() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-center pointer-events-none">
           <p className="text-[var(--brass)] caslon italic tracking-[0.5em] uppercase text-xs opacity-80">
-            The Class IX Faculty
+            The Class IX Teachers
           </p>
         </div>
       </motion.div>
