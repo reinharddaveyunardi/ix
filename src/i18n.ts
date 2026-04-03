@@ -11,5 +11,6 @@ export default getRequestConfig(async ({ locale }) => {
         ? import("../messages/en.json")
         : import(`../messages/${locale}.json`))
     ).default,
+    timeZone: "Asia/Jakarta"
   };
 });

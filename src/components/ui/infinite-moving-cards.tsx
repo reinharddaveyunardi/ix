@@ -1,7 +1,7 @@
-"use client";
-
-import { cn } from "../../app/utils/cn";
+import { cn } from "../../utils/cn";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export const InfiniteMovingCards = ({
   items,
@@ -12,7 +12,6 @@ export const InfiniteMovingCards = ({
   items: {
     img: string;
     name: string;
-    // title: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -20,11 +19,14 @@ export const InfiniteMovingCards = ({
 }) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
+  const t = useTranslations("Carousel");
 
   useEffect(() => {
     addAnimation();
   }, []);
+
   const [start, setStart] = useState(false);
+
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
       const scrollerContent = Array.from(scrollerRef.current.children);
@@ -41,84 +43,70 @@ export const InfiniteMovingCards = ({
       setStart(true);
     }
   }
+
   const getDirection = () => {
     if (containerRef.current) {
-      if (direction === "left") {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "forwards"
-        );
-      } else {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "reverse"
-        );
-      }
+      containerRef.current.style.setProperty(
+        "--animation-direction",
+        direction === "left" ? "forwards" : "reverse",
+      );
     }
   };
+
   const getSpeed = () => {
     if (containerRef.current) {
-      if (speed === "fast") {
-        containerRef.current.style.setProperty("--animation-duration", "20s");
-      } else if (speed === "normal") {
-        containerRef.current.style.setProperty("--animation-duration", "40s");
-      } else {
-        containerRef.current.style.setProperty("--animation-duration", "80s");
-      }
+      const duration =
+        speed === "fast" ? "20s" : speed === "normal" ? "40s" : "80s";
+      containerRef.current.style.setProperty("--animation-duration", duration);
     }
   };
+
   return (
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative max-w-7xl sm:max-w-full overflow-hidden bg-[#1d170f] ",
-        className
+        "scroller relative max-w-7xl sm:max-w-full overflow-hidden bg-[var(--background)]",
+        className,
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
-          start && "animate-scroll "
+          "flex min-w-full shrink-0 gap-12 py-12 w-max flex-nowrap",
+          start && "animate-scroll",
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] max-w-full relative flex-shrink-0 py-6 md:w-[360px]"
-            style={{
-              background: "linear-gradient(180deg, #4b3e2b, #2b2419",
-            }}
-            key={item.name}
+            key={item.name + idx}
+            className="h-[400px] w-[400px] relative flex-shrink-0 border-2 border-[var(--brass)]/10 p-6 bg-[var(--surface)] shadow-2xl transition-all duration-700 hover:border-[var(--brass)]/40 hover:-translate-y-2 group flex flex-col"
           >
-            <blockquote>
-              <div
-                aria-hidden="true"
-                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
-              ></div>
-              <span className="flex justify-center relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                <img
-                  className="w-[300px] lg:w-[295px] h-[180px] lg:h-[170px] bg-center bg-cover bg-no-repeat"
-                  src={item.img}
-                  alt=""
-                  title={item.name}
-                />
+            <div className="absolute top-0 right-0 w-8 h-8 opacity-20 pointer-events-none">
+              <div className="absolute top-0 right-0 w-full h-full bg-[var(--brass)]/10 -rotate-45 translate-x-1/2 -translate-y-1/2" />
+            </div>
+
+            <div className="relative flex-1 mb-6 overflow-hidden bg-black/20 ring-[var(--brass)]/5 min-w-[250px]">
+              <Image
+                src={item.img}
+                alt={item.name}
+                fill
+                className="object-cover grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-110 transition-all duration-1000 ease-in-out scale-[1.05] group-hover:scale-100 will-change-transform"
+                sizes="(max-width: 768px) 100vw, 400px"
+              />
+              <div className="absolute inset-0 shadow-[inset_0_0_40px_rgba(0,0,0,0.3)] pointer-events-none" />
+            </div>
+            <div className="text-center relative h-12 flex flex-col justify-center">
+              <span className="block text-[var(--brass)]/40 text-[10px] uppercase tracking-[0.4em] mb-1 font-bold caslon italic">
+                {t("entry")} No.{idx + 1}
               </span>
-              <div>
-                <div className="flex justify-center items-center h-full text-white mt-2">
-                  <div className="flex items-center justify-center h-full">
-                    <div className="flex items-center gap-2">
-                      <p>✧⁠ |</p>
-                    </div>
-                    <h1 className="text-center lg:text-md text-sm font-bold text-white px-4">
-                      The {item.name}
-                    </h1>
-                    <div className="flex items-center gap-2">
-                      <p>| ✧⁠</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </blockquote>
+              <h3 className="text-[var(--parchment)] caslon text-xl italic tracking-tight group-hover:text-[var(--brass)] transition-colors duration-500 line-clamp-1">
+                {item.name}
+              </h3>
+            </div>
+
+            {/* Corner Markers */}
+            <div className="absolute top-3 left-3 w-4 h-4 border-t border-l border-[var(--brass)]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+            <div className="absolute bottom-3 right-3 w-4 h-4 border-b border-r border-[var(--brass)]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           </li>
         ))}
       </ul>

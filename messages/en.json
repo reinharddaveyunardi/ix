@@ -1,7 +1,9 @@
 {
   "IndexPage": {
     "title": "Welcome to Class 9",
-    "description": "Chapter 7 - 9 |  2024"
+    "description": "Chapter 7 - 9 |  2024",
+    "recognition": "Recognition",
+    "superlatives": "The Superlatives"
   },
   "ixa": {
     "title": "IXA Page",
@@ -128,7 +130,12 @@
     "school": "School",
     "ixa": "IXA",
     "ixb": "IXB",
-    "ixc": "IXC"
+    "ixc": "IXC",
+    "preface": "Prologue",
+    "teachers": "Faculty",
+    "houses": "Class",
+    "superlatives": "Superlatives",
+    "archive": "Archives"
   },
   "PageLayout": {
     "links": {
@@ -140,7 +147,8 @@
     }
   },
   "ClassInfo": {
-    "title": "",
+    "houses": "Class",
+    "communities": "Our learning Communities",
     "ix": {
       "ixa": {
         "logo": "/ixa.JPG",
@@ -166,7 +174,10 @@
     }
   },
   "Gallery": {
-    "title": "Gallery"
+    "title": "The Collection",
+    "description": "Class Archives",
+    "capturing": "Capturing Moments",
+    "chronicles": "The Visual Chronicles"
   },
   "MainFooter": {
     "title": "IX",
@@ -225,5 +236,16 @@
     "Copy": {
       "copy": "© 2024 IX Citra Berkat. All rights reserved."
     }
+  },
+  "MainLayout": {
+    "established": "MMXIV—MMXXIV",
+    "discover": "Discover the Archive"
+  },
+  "MultiFilter": {
+    "entry": "Archive Entry",
+    "collection": "Collection"
+  },
+  "Carousel": {
+    "entry": "Archive Entry"
   }
 }

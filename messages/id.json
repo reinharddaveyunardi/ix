@@ -1,7 +1,9 @@
 {
   "IndexPage": {
     "title": "Selamat Datang Di Memori Kelas 9",
-    "description": "Bab 7 - 9 | 2024"
+    "description": "Bab 7 - 9 | 2024",
+    "recognition": "Pengakuan",
+    "superlatives": "Superlatif"
   },
   "ixa": {
     "title": "Kelas IXA",
@@ -128,7 +130,12 @@
     "school": "Sekolah",
     "ixa": "IXA",
     "ixb": "IXB",
-    "ixc": "IXC"
+    "ixc": "IXC",
+    "preface": "Prolog",
+    "teachers": "Guru",
+    "houses": "Kelas",
+    "superlatives": "Superlatif",
+    "archive": "Arsip"
   },
   "PageLayout": {
     "links": {
@@ -140,7 +147,8 @@
     }
   },
   "ClassInfo": {
-    "title": "",
+    "houses": "Kelas",
+    "communities": "Komunitas Belajar Kami",
     "ix": {
       "ixa": {
         "title": "IXA",
@@ -166,7 +174,10 @@
     }
   },
   "Gallery": {
-    "title": "Galeri"
+    "title": "Koleksi",
+    "description": "Arsip Kelas",
+    "capturing": "Menangkap Momen",
+    "chronicles": "Kronik Visual"
   },
   "MainFooter": {
     "title": "IX",
@@ -225,5 +236,16 @@
     "Copy": {
       "copy": "© 2024 IX Citra Berkat. All rights reserved."
     }
+  },
+  "MainLayout": {
+    "established": "MMXIV—MMXXIV",
+    "discover": "Temukan Arsip"
+  },
+  "MultiFilter": {
+    "entry": "Entri Arsip",
+    "collection": "Koleksi"
+  },
+  "Carousel": {
+    "entry": "Entri Arsip"
   }
 }

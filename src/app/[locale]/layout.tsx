@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import { Inter } from "next/font/google";
-import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
+import { getTranslations, unstable_setRequestLocale, getMessages } from "next-intl/server";
 import { ReactNode } from "react";
-import Navigation from "components/Navigation";
+import Navigation from "components/layout/Navigation";
 import { locales } from "../../config";
 import ClientProvider from "./ClientProvider";
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -34,9 +34,10 @@ export default async function LocaleLayout({
   params: { locale },
 }: Props) {
   unstable_setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
-    <ClientProvider locale={locale}>
+    <ClientProvider locale={locale} messages={messages}>
       <html className="h-full" lang={locale}>
         <head>
           <meta name="keywords" content="pastnine, IX, ix, nine, kelas 9, 9 class, pastnine.vercel.app, web graduasi"/>

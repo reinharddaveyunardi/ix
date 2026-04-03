@@ -1,0 +1,58 @@
+
+.letter {
+  background: var(--parchment);
+  background-image: url('https://www.transparenttextures.com/patterns/old-map.png');
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.4),
+    0 0 2px var(--brass-dark) inset;
+  margin: 40px auto;
+  min-height: 400px;
+  padding: 60px;
+  position: relative;
+  width: 85%;
+  max-width: 900px;
+  z-index: 2;
+  transform: rotate(0.5deg);
+  border: 1px solid var(--brass-dark);
+}
+
+.letter > div {
+  transform: rotate(0deg);
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.letter:before,
+.letter:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  border: 1px solid var(--brass-dark);
+}
+
+.letter:before {
+  background: #dcd0b9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  left: -8px;
+  top: 8px;
+  transform: rotate(-1.5deg);
+}
+
+.letter:after {
+  background: #e5dcc5;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  right: -5px;
+  top: 4px;
+  transform: rotate(1deg);
+}
+
+@media (max-width: 768px) {
+  .letter {
+    width: 95%;
+    padding: 30px;
+    margin: 20px auto;
+  }
+}
